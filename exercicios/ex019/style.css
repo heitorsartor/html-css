@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: blue;
+}
+.basico {
+    background-color: red;
+    color: green;
+}
+.medio {
+    background-color: black;
+    color: white;
+}

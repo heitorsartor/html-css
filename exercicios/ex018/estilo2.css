@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "lovestory";
+    src: url('fonts/lovestory.ttf') format('truetype');
+}
+    
+
+    /*
+        Tipos de Format()
+        opentype(otf)
+        truetype(ttf)
+        truetype-att(Apple Advanced Typografy)
+        embedded-opentype
+        svg    
+    */
+
+body {
+    font-family: "lovestory";
+}
+
