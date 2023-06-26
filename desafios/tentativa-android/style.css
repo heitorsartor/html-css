@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    width: 70vw;
+    width: 750px;
     margin: auto;
     padding: 20px 15px 0px 15px;
     background-color: white;
@@ -57,4 +57,10 @@ main h1       {
 
 main p {
     text-indent: 25px;
+}
+
+main img {
+    width: 700px;
+    display: block;
+    margin: auto;
 }
