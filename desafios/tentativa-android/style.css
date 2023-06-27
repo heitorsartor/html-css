@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    width: 750px;
+    max-width: 800px;
     margin: auto;
     padding: 20px 15px 0px 15px;
     background-color: white;
@@ -53,14 +53,103 @@ nav a:hover {
 
 main h1       {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 0px 5px 5px;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px 0px 10px 0px;
+    background-image: linear-gradient(to right, green, transparent);
+    padding-left: 7px;
 }
 
 main p {
     text-indent: 25px;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+main p#ideia {
+    padding-top: 10px;
 }
 
 main img {
-    width: 700px;
+    width: 95%;
     display: block;
     margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+#bugdroid {
+    width: 50%;
+}
+
+div {
+    max-width: 560px;
+    max-height: 315px;
+    background-color: blue;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left:50%;
+
+    transform: translate(-50%, -50%);
+}
+
+aside {
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+aside h3 {
+    background-color: rgb(13, 168, 168);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside p {
+    padding: 10px;
+}
+
+aside ul {
+    columns: 2;
+    list-style-position: inside;
+}
+
+strong {
+    color: darkgreen;
+    border-radius: 3px;
+     padding: 5px;
+}
+
+footer {
+    background-color: rgb(12, 221, 12);
+    color:black;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
