@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Meu Teste Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome"><b>Nome</b></label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                <label for="sobrenome"><b>Sobrenome</b></label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </p>
+            <p>
+                <label for="cpf">Cpf</label>
+                <input type="number" name="cpf" id="cpf"required>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contato</legend>
+            <p>
+                <label for="telefone">telefone</label>
+                <input type="number" name="telefone" id="telefone" placeholder="xxxxxxxxxxx">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"  placeholder="xxxxxxxxxx@xxxx.com" minlength="10">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua" placeholder="Rua" value="Almas">
+            </p>
+            <p>
+                <label for="pais">pais</label>
+                <select name="pais" id="pais">
+                    <option value="Escolha">Escolha</option>
+                    <option value="mg">Brasil</option>
+                    <option value="eua">Estados Unidos</option>
+                    <option value="can">Canadá</option>
+                </select>
+            
+            </p>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
