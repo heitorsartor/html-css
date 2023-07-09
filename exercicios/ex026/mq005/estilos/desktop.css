@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+    background-color: rgba(82, 79, 79);
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(31, 31, 31, 0.418);
+}
+
+main {
+    width: 769px;
+}
+
+button {
+    display: none;
+}
